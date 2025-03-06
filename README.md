@@ -5,4 +5,4 @@
 4 - Open a new terminal and choose cmd;
 5 - Enter to "frontend" directory from cmd with command "cd frontend";
 6 - From cmd lunch the command npm run dev;
-7 - Open "http://localhost:5174/" in your broswer.
+7 - Open the localahost with "CTRL + Click" over the link.
