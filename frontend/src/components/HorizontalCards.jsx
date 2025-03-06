@@ -22,7 +22,7 @@ export default function HorizontalCards() {
         <>
             <table>
                 <thead>
-                    <th>ID</th>
+                    {/* <th>ID</th> */}
                     <th>Client</th>
                     <th>Project</th>
                     <th className="nsm">Description</th>
