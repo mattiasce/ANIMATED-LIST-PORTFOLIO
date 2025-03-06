@@ -4,5 +4,6 @@
 3 - Open the folder with your IDE, in Visual Studio Code "CTRL + K + O";
 4 - Open a new terminal and choose cmd;
 5 - Enter to "frontend" directory from cmd with command "cd frontend";
-6 - From cmd lunch the command npm run dev;
-7 - Open the localahost with "CTRL + Click" over the link.
+6 - From cmd lunch the command "npm install";
+7 - From cmd lunch the command "npm run dev";
+8 - Open the "localahost" with "CTRL + Click" over the link.
