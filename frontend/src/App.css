@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+h1 {
+  @apply text-white uppercase text-[14px]
+}
+
+/* TABELLA  */
+
+table {
+  @apply w-full text-left text-[14px] my-auto border-none
+}
+
+th {
+  @apply uppercase text-[white] text-[12px]
+}
+
+td, th, tr {
+  @apply py-2 border-none;
+}
+
+.nsm {
+  @apply hidden sm:block
+}
+
+/* CARD */
+
+.card {
+  border-top: 1px solid white;
+  background-image: linear-gradient(to right, black, black, white, white);
+  background-size: 300%;
+  background-position: left;
+  color: white;
+  cursor: pointer;
+  transition: all 2.4s ease;
+}
+
+.card:hover {
+  @apply duration-[0.4s] ease-linear bg-right text-black 
+}
+
+td{
+  @apply duration-[0.4s] ease-linear
+}
+
+.card:hover td {
+  @apply translate-x-4
+}
+
